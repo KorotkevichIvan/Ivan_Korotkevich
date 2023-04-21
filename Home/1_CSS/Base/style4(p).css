@@ -1,0 +1,5 @@
+body{background-color: rgb(191, 233, 144);}
+p{text-decoration: line-through; color: blueviolet;}
+.center{text-align: center; color: blue; text-decoration: none;}
+#center{text-align: right; text-decoration: none; color: brown;}
+#cod{text-align: center; text-decoration: none;}
