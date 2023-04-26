@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+    <style>
+        .navigation{
+            background-color:burlywood;
+            width: 15em;
+            float: left;
+            height: 400px;
+        }
+        .st_1{
+            background-color: bisque;
+            margin-bottom: .2em;
+            margin-left: 15em;
+        }
+        .footer{
+            background-color: darkgray;
+            clear: both;
+        }
+        .wrap{
+            background-color: azure;
+        }
+        .img{
+            width: 200px;
+            height: 200px;
+            float: right;
+        }
+        .rasporka{
+            clear: both;
+        }
+    </style>
+<body>
+    <div class="wrap">
+        <div class="navigation">
+            <h4>Блок навигации</h4>
+            <ul>
+                <li>Ширина 15em</li>
+                <li>Должен присутствовать цвет фона</li>
+                <li>Располагается слева</li>
+                <li>Блок навигации наполните контентом достаточным, чтобы по высоте он начинал захватывать вторую статью, как показано в данном примере</li>
+            </ul>
+        </div>
+        <div class="st_1">
+            <br><strong>Статья 1</strong>
+            <br><br>Размер блока:<br>
+            Занимает всю доступную ширину<br>
+            Должен присутствовать цвет фона<br>
+            Во всех "статьях" сделайте отступ снизу от соседей равным 2em, при помощи свойства margin-<br>
+            bottom
+        </div>
+        <div class="st_1">
+            <br><strong>Статья 2</strong><br><br>
+            Размер блока:<br>
+            Занимает всю доступную ширину<br>
+            Должен присутствовать цвет фона<br>
+            Во всех "статьях" сделайте отступ снизу от соседей равным 2em, при помощи свойства margin-<br>
+            bottom. Картинка вставлена при помощи тега, плавание организовано по правому краю внутри данной статьи для этой картинки.
+            <img src="pngegg.png" class="img">
+            <div class="rasporka"></div>
+        </div>
+        <div class="footer">
+            Нижний блок, подвал. Занимает всю доступную ширину. Высота определяется помещенным внутрь контентом.
+        </div>
+    </div>
+</body>
+</html>
