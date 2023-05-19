@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        h1~p{
+            border-style: double;
+            text-indent: 25px;
+            margin: 0px;
+        }
+        ul{
+            list-style-image: url(Без-названия-_1_.svg);
+        }
+        a[href^='1']:hover::after{
+            content: url(Без-названия_1.svg);
+        }
+        a[href^='2']:hover::after{
+            content: url(Без-названия-_1__1.svg);
+        }
+        a[href^='3']:hover::after{
+            content: url(Без-названия_1\ \(1\).svg);
+        }
+    </style>
+<body>
+    <h1>Форматы файлов.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sequi <img src="Без названия.png"><a href="">document</a> perspiciatis delectus ducimus hic dolores ratione quidem voluptate laudantium rerum non dolore iste optio reiciendis blanditiis, dolor consequatur! Illo.<br>
+    <a href=''>Документ MS Word</a><img src="Без названия.jpeg">
+    </p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero ipsa <img src="Без названия.png"><a href="">PDF</a> mollitia ducimus molestias corrupti iure. Illum, sapiente earum vel doloribus at obcaecati pariatur, nobis molestiae maxime, amet nam. Quo, hic.<br>
+    <a href=''>Документ PDF</a><img src="Без названия (1).png">
+    </p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid perferendis <img src="Без названия.png"><a href="">.zip</a> officia optio porro nobis culpa, inventore ea. Natus, commodi repellendus optio fuga iusto hic laudantium esse molestiae quod consequuntur voluptatem?<br>
+    <a href=''>Архив</a><img src="Без названия.gif">
+    </p>
+    <h2>Это список файлов</h2>
+    <ul>
+        <li><a href="1">Документ MS Word</a></li>
+        <li><a href="2">Документ PDF</a></li>
+        <li><a href="3">Архив</a></li>
+    </ul>
+</body>
+</html>
